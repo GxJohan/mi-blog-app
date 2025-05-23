@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+/* src/styles.css */
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+main {
+  flex: 1 0 auto; 
+}
+footer {
+  flex-shrink: 0; 
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
